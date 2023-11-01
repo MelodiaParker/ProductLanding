@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Skyrim Product Landing Page</title>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Buy Skyrim</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Skyrim_logo.png" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#trailer" class="nav-link">Trailer</a></li>
+                    <li><a href="#order" class="nav-link">Order</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="features">
+                <h2>Features</h2>
+                    <ul>
+                        <li>Ten races to choose from</li>
+                        <li>Hundreds of character customization options</li>
+                        <li>Open world exploration</li>
+                        <li>An entertaining storyline</li>
+                        <li>Hundreds of side and miscellaneous quests</li>
+                        <li>Ability to have followers join you on your adventures</li>
+                        <li>Ability to have a spouse and to adopt (up to two) children to provide extra perks</li>
+                        <li>Craft thousands of items, including armor, weapons, and potions</li>
+                        <li>Ability to load mods</li>
+                        <li>Creation Club</li>
+                        <li>Purchase livable homes throughout Skyrim</li>
+                        <li>Ability to create your own home to your exact specifications</li>
+                        <li>Major expansion packs for more exciting gameplay</li>
+                        <li>An advanced skill tree to improve your character's advancement</li>
+                    </ul>
+            </section>
+            <section id="trailer">
+                <h2>Trailer</h2>
+                    <p>Take a look at what Skyrim has to offer in the official trailer!</p>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JSRtYpNRoN0?si=zd-noUGgJAG8O1jW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section id="order">
+                <h2>Order</h2>
+                    <p>Are you ready to order Skyrim?</p>
+                    <p>Please choose your platform and enter your email address in the form below for information on buying Skyrim:</p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <label for="platform"><input type="radio" name="platform" id="pc"> PC</label>
+                        <label for="platform"><input type="radio" name="platform" id="xbox"> Xbox</label>
+                        <label for="platform"><input type="radio" name="platform" id="playstation"> PlayStation</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="name@domain.com">
+                        <input type="submit" id="submit">
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
